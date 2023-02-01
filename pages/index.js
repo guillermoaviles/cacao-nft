@@ -5,7 +5,7 @@ import NFTCard from "../components/NFTCard";
 import { useAddress, useChainId } from "@thirdweb-dev/react";
 import axios from "axios";
 import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
+import Link from 'next/link'
 
 
 
