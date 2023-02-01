@@ -4,12 +4,63 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  /* padding: 4rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.nav {
+  margin: 10px auto 10px;
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav .connect {
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 230px;
+
+}
+
+.nav .home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .logo {
+  margin-right: auto;
+  margin-left: 5%;
+  color: #f213a4;
+  text-decoration: none;
+  font-size: 2.5rem;
+  line-height: .75;
+}
+
+.nav .icon {
+  margin-left: 15px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal {
+  color: #f213a4;
+  text-decoration: none;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
 }
 
 .title a {
@@ -34,10 +85,10 @@
   text-align: center;
 }
 
-.connect {
+/* .connect {
   margin-bottom: 2rem;
   width: 230px;
-}
+} */
 
 .description {
   margin-top: 3rem;
