@@ -1,13 +1,13 @@
-import React from 'react'
-import {getNFTs} from "./api/ops"
+// import React from 'react'
+// import {getNFTs} from "./api/ops"
 
-export default function test() {
+// export default function test() {
 
-  return (
-    <div>
+//   return (
+//     <div>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
 
