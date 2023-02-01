@@ -77,7 +77,7 @@ export default function Home() {
         <div>
             <h2>My NFTs</h2>
           {nfts?.map (
-          (nft) => <NFTCard data={nft} />)}
+          (nft, index) => <NFTCard data={nft} key={index} />)}
         </div>
         <div className="listed-nfts-container">
           <h2>My Listed NFTs</h2>
